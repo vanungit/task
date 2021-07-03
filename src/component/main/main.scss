@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  text-align: center;
+  padding-top: 10px;
+
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  button:hover{
+    color:white;
+  }
+}
